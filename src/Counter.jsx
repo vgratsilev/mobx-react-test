@@ -5,7 +5,8 @@ import './App.css';
 const Counter = observer(() => {
     return (
         <div className={'counter'}>
-            {`Count = ${counter.count}`}
+            {/*{`Count = ${counter.count}`}*/}
+            {counter.total}
             <div className={'buttonsContainer'}>
                 <button className={'button'} onClick={() => counter.increment()}>
                     +
